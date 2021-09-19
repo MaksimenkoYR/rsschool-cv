@@ -37,5 +37,5 @@ function disemvowel(str) {
 - __Ukrainian__ - _Native_
 
 ## Interests 
-Running, Basketball, Swimming, Cooking, Anime  
+Running, Basketball, Swimming, Cooking, Anime, Tattoo  
 
