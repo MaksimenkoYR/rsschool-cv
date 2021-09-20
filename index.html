@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Yaroslav Maksimenko CV</title>
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="header__avatar">
+                    <img
+                        src="https://lh3.googleusercontent.com/xEVb4nsJOE52ihM49zHnlybk0PnkZ7i6sc3AnSN7yds3iaBfYE93X2dumXj4vQyzYXWLcdIXpn-aqXg17ZxJ8XTjkh9Wa13O6iTElGW47q_Z7LHKaJtCNTJFjcMyuQriQGpYay-wFVVRlyScnJEwGwJlcgW7H8oChbTaz6nVEd9wTTu30SdlvaTbxgnS02pnM7_jnvnqgqbPPa_nbE1DiWIXFw6W-skwlcfRviI8lDC_BolbBarsh4K8XPnrPJ46cno0zOhRqHNWZcYhI5-wy1hsSDhQfzgdPrU9NQfkWmpjEGuEfuqIXNcTXKY4QquhipTPJe3mUJg778Mcjjfy1gsLBI9sjIkfmmt3NeCyoShjf0Hn8Lkc6nU1TU1148oT5Kl8YRhyKhIV-X_Py819ccGHsjadqCQkzvLY0I1B0ZDgucBUs3VBmAxKdQNnbi_Yvald56dBOprB87cuWWLdlYfKlHu1xZQCyV13GCJOYkm_Mdg8Pbzn81fO6ZboXFiJolEnt-EWA-EEQBsBYYaMOf2O7ojOWetezABpOFxdgrQftzxkGfmaYQWsczFvNmMTNIJMiZ43pEglucAXfWpcFyQUKFin9cC-MO_LbIVmt7kE2qN52leQT-M0gp-SeSVREPKwZJP3kHGs22eaCWj_GDvAiQALeRi6yHmJdV3aVjlMex3RPCP1Wk3HlOrWOpsfdXvdceRe1oQLNt6dwjyDWRo=w956-h1275-no?authuser=0"
+                        alt="candidate photo"
+                    />
+                </div>
+                <div class="header__name">
+                    <h1>Yaroslav Maksimenko Web Developer</h1>
+                </div>
+                <div>
+                    <ul class="header__contacts">
+                        <li>
+                            <a href="tel:+48577466157">48 577 466 157</a>
+                        </li>
+                        <li>
+                            <a href="mailto:maksimenko.yr@gmail.com">maksimenko.yr@gmail.com</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/yaroslav-maksimenko/">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/MaksimenkoYR">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <main>
+                <section>
+                    <h2>Projects</h2>
+                    <a href="http://app.todo.maksimenkoyr.com">To-Do app</a>
+                    Full-stack task management app. Used technologies: React, Node, Express,
+                    Mongoose, Chakra UI.
+                </section>
+                <section>
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>In-depth knowledge about JavaScript, React.js, HTML, CSS</li>
+                        <li>
+                            Practical experience of state management and side effects management
+                            patterns and solutions(Redux, Redux-Thunk)
+                        </li>
+                        <li>
+                            Practical Experience of Node.js and backend technologies(Express,
+                            Mongoose)
+                        </li>
+                        <li>
+                            Practical experience of working with component libraries and CSS
+                            libraries/technologies.(MaterialUI, Reactstrap/React Bootstrap,
+                            ChakraUI, CSS Modules, Styled Component, Sass)
+                        </li>
+                        <li>Experience of TypeScript, Unit testing</li>
+                        <li>Familiarity with version control system(Git)</li>
+                        <li>Understanding Rest API, Agile principles</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Code expamples</h2>
+
+                    <h3>Disemvowel Trolls - kata from codewars</h3>
+                    Trolls are attacking your comment section! A common way to deal with this
+                    situation is to remove all of the vowels from the trolls’ comments, neutralizing
+                    the threat. Your task is to write a function that takes a string and return a
+                    new string with all vowels removed.
+
+                    <code>
+                        function disemvowel(str) { return [...str].map(item =>
+                        ['a','e','i','o','u'].includes(item.toLowerCase()) ? '' : item ).join('') }
+                    </code>
+                </section>
+                <section>
+                    <h2>Languages</h2>
+                    <ul>
+                        <li>English - Upper intermediate</li>
+                        <li>Russian - Native</li>
+                        <li>Ukrainian - Native</li>
+                        <li>Polish - Upper intermediate</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Interests</h2>
+                    Running, Basketball, Swimming, Cooking, Anime, Tattoo
+                </section>
+            </main>
+            <footer>
+                <a href="https://github.com/MaksimenkoYR">GitHub</a>
+                <p>2021</p>
+                <a href="https://rs.school/js/"
+                    ><img
+                        class="footer__logo"
+                        src="https://rs.school/images/rs_school_js.svg"
+                        alt="rs school logo"
+                /></a>
+            </footer>
+        </div>
+    </body>
+</html>
