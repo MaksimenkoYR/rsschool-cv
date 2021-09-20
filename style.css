@@ -1,0 +1,48 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    width: 95vh;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__avatar {
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.header__avatar img {
+    width: 100px;
+    margin: -20px 0px;
+}
+.header__name {
+    margin-right: auto;
+    margin-left: 5px;
+}
+
+.header__name h1 {
+    margin: 0;
+}
+.header__name span {
+    font-size: 20px;
+}
+.header__contacts {
+    list-style: none;
+}
+
+footer {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo {
+    width: 70px;
+}
