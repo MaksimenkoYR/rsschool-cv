@@ -12,6 +12,14 @@
             href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
             rel="stylesheet"
         />
+        <link
+            rel="stylesheet"
+            href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css"
+        />
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+        <script>
+            hljs.initHighlightingOnLoad()
+        </script>
     </head>
     <body>
         <div class="container">
@@ -23,7 +31,8 @@
                     />
                 </div>
                 <div class="header__name">
-                    <h1>Yaroslav Maksimenko Web Developer</h1>
+                    <h1>Yaroslav Maksimenko</h1>
+                    <span>Web Developer</span>
                 </div>
                 <div>
                     <ul class="header__contacts">
@@ -79,11 +88,14 @@
                     situation is to remove all of the vowels from the trolls’ comments, neutralizing
                     the threat. Your task is to write a function that takes a string and return a
                     new string with all vowels removed.
-
-                    <code>
-                        function disemvowel(str) { return [...str].map(item =>
-                        ['a','e','i','o','u'].includes(item.toLowerCase()) ? '' : item ).join('') }
-                    </code>
+                    <!-- such indents are needed for correct displaying javascript code -->
+                    <pre><code>
+function disemvowel(str) {
+    return [...str]
+    .map(item => (['a', 'e', 'i', 'o', 'u'].includes(item.toLowerCase()) ? '' : item))
+    .join('')
+}
+</code></pre>
                 </section>
                 <section>
                     <h2>Languages</h2>
